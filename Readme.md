@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Slava Lebedev](https://up.htmlacademy.ru/htmlcss/21/user/240116).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Казанцев](https://up.htmlacademy.ru/htmlcss/21/user/24186).
 
 ---
 
