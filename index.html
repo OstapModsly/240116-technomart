@@ -8,13 +8,13 @@
     <header class='header-main'>
        <div class='header-upper'>
            <div class='logo'>
-               <h1><a href="#">Техномарт</a></h1>
+               <a>Техномарт</a>
            </div>
            <div class='container'>
                <div class='search'>
                </div>
-               <a href='#' class='bookmark'>Закладки</a>
-               <a href='#' class='basket'>Корзина</a>
+               <a href='#' class='bookmark'>Закладки: 0</a>
+               <a href='#' class='basket'>Корзина: 0</a>
                <a href='#' class='order'>Оформить заказ</a>
            </div>       
        </div>
@@ -23,7 +23,7 @@
               <p class='description'>Интернет-магазин строительных материалов и инструментов для ремонта</p>
               <div class='contacts'>
                   <p class='header-telephone'>+7 (812) 555-05-55</p>
-                  <p class='header-adress'>г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
+                  <p class='header-address'>г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8</p>
               </div> 
           </div>
           <div class='login-connected'>
@@ -33,7 +33,7 @@
        </div>
        <nav class='navigation'>
            <ul>
-               <li><a href='#'>Главная</a></li>
+               <li><a>Главная</a></li>
                <li><a href='#'>Компания</a></li>
                <li><a href='catalog.html'>Каталог</a></li>
                <li><a href='#'>Новости</a></li>
@@ -44,119 +44,142 @@
        </nav>
     </header>
     <main>
-        <section class='info-service-upper'>
-            <div class='type-category material'>
-                <h2>Материалы</h2>
-                <a href='#' class='offer-type-info'>На любой вкус</a>
-            </div>
-            <div class='type-category tool'>
-                <h2>Инструмент</h2>
-                <a href='#' class='offer-type-info'>На все случаи</a>
-            </div>
-            <div class='type-category equipment'>
-                <h2>Техника</h2>
-                <a href='#' class='offer-type-info'>Для стройки</a>
-            </div>
-        </section>
-        <section class='info-service-under'>
-            <div class='slider-offer'>
-                <h2>Дрели</h2>
-                <p>Соседям на радость</p> 
-                <a href='catalog.html' class='button-catalog'>Открыть каталог</a>              
-            </div>
-            <div class='info-service-right'>
-                <div class='type-category material'>
+        <h1>Компания Техномарт</h1>
+        <section class='info-service'>
+            <ul class='list-offer'>
+                <li class='offer material'>
+                    <h2>Материалы</h2>
+                    <a href='#' class='offer-type-info'>На любой вкус</a>
+                </li>
+                <li class='offer tool'>
+                    <h2>Инструмент</h2>
+                    <a href='#' class='offer-type-info'>На все случаи</a>
+                </li>
+                <li class='offer equipment'>
+                    <h2>Техника</h2>
+                    <a href='#' class='offer-type-info'>Для стройки</a>
+                </li>
+                <li class='slider-offer'>
+                    <h2>Дрели</h2>
+                    <p>Соседям на радость</p> 
+                    <a href='catalog.html' class='button'>Открыть каталог</a> 
+                </li>
+                <li class='offer sale'>
                     <h2>Скидка 50%</h2>
                     <a href='#' class='offer-type-info'>На 350 товаров</a>
-                </div>
-                <div class='type-category material'>
+                </li>
+                <li class='offer delivery'>
                     <h2>Доставка</h2>
                     <a href='#' class='offer-type-info'>Бесплатно</a>
-                </div>
-            </div>
+                </li>
+            </ul>
         </section>
         <section class='popular'>
-            <div class='popular-goods'>
-                <span>Популярные товары</span>
-                <a href='#' class='goods-button'>Все популярные товары</a>
+            <div clas='popular'>
+               <div class='popular-goods'>
+                <h1>Популярные товары</h1>
+                <a href='#' class='button'>Все популярные товары</a>
+               </div>
+            <div class='popular-catalog'>
+                <ul class='list-goods'>
+                    <li class='goods-first'>
+                        <img src='http://placehold.it/150x100' alt='Перфоратор BOSCH BFG 9000'>
+                        <p class='perfotor-description'>Перфоратор BOSCH BFG 9000</p>
+                        <span class='old-price'>32500 Р.</span>
+                        <span class='new-price'>25500 Р.</span>
+                        <div class='perforator-actions'>
+                            <a href='#' class='buy-button'>Купить</a>
+                            <a href='#' class='bookmark-button'>В закладки</a>
+                        </div>
+                    </li>
+                    <li class='goods-second'>
+                        <img src='http://placehold.it/150x100' alt='Перфоратор BOSCH BFG 3000'>
+                        <p class='perfotor-description'>Перфоратор BOSCH BFG 3000</p>
+                        <span class='old-price'>22500 Р.</span>
+                        <span class='new-price'>15500 Р.</span>
+                        <div class='perforator-actions'>
+                            <a href='#' class='buy-button'>Купить</a>
+                            <a href='#' class='bookmark-button'>В закладки</a>
+                        </div>
+                    </li>
+                    <li class='goods-third'>
+                        <img src='http://placehold.it/150x100' alt='Перфоратор BOSCH BFG 6000'>
+                        <p class='perfotor-description'>Перфоратор BOSCH BFG 6000</p>
+                        <span class='old-price'>30500 Р.</span>
+                        <span class='new-price'>25500 Р.</span>
+                        <div class='perforator-actions'>
+                        <a href='#' class='buy-button'>Купить</a>
+                        <a href='#' class='bookmark-button'>В закладки</a>
+                        </div>
+                    </li>
+                    <li class='goods-fourth'>
+                        <img src='http://placehold.it/150x100' alt='Перфоратор BOSCH BFG 9000'>
+                        <span class='perfotor-description'>Перфоратор BOSCH BFG 9000</span>
+                        <p class='new-price'>12500 Р.</p>
+                        <div class='perforator-actions'>
+                            <a href='#' class='buy-button'>Купить</a>
+                            <a href='#' class='bookmark-button'>В закладки</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+           </div>
+           <div clas='popular'>
+            <div class='popular-header'>
+                <span>Популярные производители</span>
+                <a href='#' class='button'>Все производители</a>
             </div>
             <div class='popular-catalog'>
-                <article class='perforator'>
-                    <img src='http://placehold.it/150x100' alt='Перфоратор BOSCH BFG 9000'>
-                    <span class='perfotor-description'>Перфоратор BOSCH BFG 9000</span>
-                    <span class='old-price'>32500 Р.</span>
-                    <span class='new-price'>25500 Р.</span>
-                    <div class='perforator-actions'>
-                        <a href='#' class='buy-button'>Купить</a>
-                        <a href='#' class='bookmark-button'>В закладки</a>
-                    </div>
-                </article>
-                <article class='perforator'>
-                    <img src='http://placehold.it/150x100' alt='Перфоратор BOSCH BFG 9000'>
-                    <span class='perfotor-description'>Перфоратор BOSCH BFG 3000</span>
-                    <span class='old-price'>22500 Р.</span>
-                    <span class='new-price'>15500 Р.</span>
-                    <div class='perforator-actions'>
-                        <a href='#' class='buy-button'>Купить</a>
-                        <a href='#' class='bookmark-button'>В закладки</a>
-                    </div>
-                </article>
-                <article class='perforator'>
-                    <img src='http://placehold.it/150x100' alt='Перфоратор BOSCH BFG 9000'>
-                    <span class='perfotor-description'>Перфоратор BOSCH BFG 6000</span>
-                    <span class='old-price'>30500 Р.</span>
-                    <span class='new-price'>25500 Р.</span>
-                    <div class='perforator-actions'>
-                        <a href='#' class='buy-button'>Купить</a>
-                        <a href='#' class='bookmark-button'>В закладки</a>
-                    </div>
-                </article>
-                <article class='perforator'>
-                    <img src='http://placehold.it/150x100' alt='Перфоратор BOSCH BFG 9000'>
-                    <span class='perfotor-description'>Перфоратор BOSCH BFG 9000</span>
-                    <span class='new-price'>12500 Р.</span>
-                    <div class='perforator-actions'>
-                        <a href='#' class='buy-button'>Купить</a>
-                        <a href='#' class='bookmark-button'>В закладки</a>
-                    </div>
-                </article>
+               <ul class='list-firm'>
+                <li class='bosh'>
+                    <a href='#' class='firms-logo'>
+                        <img src='http://placehold.it/150x100' alt='Bosh'>
+                    </a>
+                </li>
+                <li class='makita'>
+                    <a href='#' class='firms-logo'>
+                        <img src='http://placehold.it/150x100' alt='Makita'>
+                    </a>
+                </li>
+                <li class='dewalt'>
+                    <a href='#' class='firms-logo'>
+                        <img src='http://placehold.it/150x100' alt='DeWalt'>
+                    </a>
+                </li>
+                <li class='interskol'>
+                    <a href='#' class='firms-logo'>
+                        <img src='http://placehold.it/150x100' alt='Интерскол'>
+                    </a>
+                </li>
+                <li class='hitachi'>
+                    <a href='#' class='firms-logo'>
+                        <img src='http://placehold.it/150x100' alt='Hitachi'>
+                    </a>
+                </li>
+                <li class='lg'>
+                    <a href='#' class='firms-logo'>
+                        <img src='http://placehold.it/150x100' alt='LG'>
+                    </a>
+                </li>
+                <li class='aeg'>
+                    <a href='#' class='firms-logo'>
+                        <img src='http://placehold.it/150x100' alt='AEG'>
+                    </a>
+                </li>
+                <li class='metabo'>
+                    <a href='#' class='firms-logo'>
+                        <img src='http://placehold.it/150x100' alt='Metabo'>
+                    </a>
+                </li>
+               </ul>
             </div>
-            <div class='popular-firms'>
-                <span>Популярные производители</span>
-                <a href='#' class='firm-button'>Все производители</a>
-            </div>
-            <section class='different-firms'>
-                <a href='#' class='firms-logo'>
-                    <img src='http://placehold.it/150x100' alt='Bosh'>
-                </a>
-                <a href='#' class='firms-logo'>
-                    <img src='http://placehold.it/150x100' alt='Makita'>
-                </a>
-                <a href='#' class='firms-logo'>
-                    <img src='http://placehold.it/150x100' alt='DeWalt'>
-                </a>
-                <a href='#' class='firms-logo'>
-                    <img src='http://placehold.it/150x100' alt='Интерскол'>
-                </a>
-                <a href='#' class='firms-logo'>
-                    <img src='http://placehold.it/150x100' alt='Hitachi'>
-                </a>
-                <a href='#' class='firms-logo'>
-                    <img src='http://placehold.it/150x100' alt='LG'>
-                </a>
-                <a href='#' class='firms-logo'>
-                    <img src='http://placehold.it/150x100' alt='AEG'>
-                </a>
-                <a href='#' class='firms-logo'>
-                    <img src='http://placehold.it/150x100' alt='Metabo'>
-                </a>
-            </section>
+           </div>
         </section>
         <section class='service'>
             <div class='service-intro'>
                 <h2>Сервисы</h2>
                 <p>
-                    Хороший интернет-магазин отличается от плохого не только ценами!<br>
+                    Хороший интернет-магазин отличается от плохого не только ценами!
                     Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
                 </p>
             </div>
@@ -169,28 +192,30 @@
                    </ul>
                 </div>
                 <div class='info-service'>
-                    <div class='info-delivery'>
+                   <ul class='list-info'>
+                    <li class='info-block info-delivery'>
                         <span>Доставка</span>
                         <p>
                             Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
                             Ведь мы неплохо заработаем, поднимая его на ваш этаж!
                         </p>
-                    </div>
-                    <div class='info-guarantee'>
+                    </li>
+                    <li class='info-block info-guarantee'>
                         <span>Гарантия</span>
                         <p>
                             Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>
                             Дом уж восстановите как-нибудь сами.
                         </p>
-                    </div>
-                    <div class='info-credit'>
+                    </li>
+                    <li class='info-block info-credit'>
                         <span>Кредит</span>
                         <p>
                             Залезть в долговую яму стало проще!<br>
                             Кредитные консультанты придут вам на помощь.
                         </p>
                         <a href='#' class='credit-button'>Отправить заявку</a>
-                    </div>
+                    </li>
+                   </ul>
                 </div>
             </div>
         </section>
@@ -213,11 +238,11 @@
             <section class='how-find'>
                 <h2>Контакты</h2>
                 <p>
-                    Вы можете забрать товар сами,<br>
+                    Вы можете забрать товар сами,
                     заехав в нашм офис.
                 </p>
                 <img src='http://placehold.it/150x100' alt='google-map'>
-                <a href='#' class='write-us-button'>Забледились? Напишите нам!</a>
+                <a href='#' class='write-us-button'>Заблудились? Напишите нам!</a>
             </section>
         </section>
      </main>
@@ -246,15 +271,15 @@
          </div>
          <div class='footer-under'>
               <div class='copyright'>
-                  <p>
-                      © 2010-2017 Компания "Техномарт"<br>
-                      Все права защищены
-                  </p>
+                  <p>© 2010-2017 Компания "Техномарт"</p>
+                  <p>Все права защищены</p>
               </div>
               <div class="social">
-                  <a class="button-vk" href="#"></a>
-                  <a class="button-fb" href="#"></a>
-                  <a class="button-inst" href="#"></a>
+                 <ul>
+                  <li><a class="button-vk" href="#">Вконтакте</a></li>
+                  <li><a class="button-fb" href="#">Фейсбук</a></li>
+                  <li><a class="button-inst" href="#">Инстаграм</a></li>
+                 </ul>
               </div>
                   <div class="feedback">
                       <p>Обратная связь:</p>
