@@ -45,7 +45,7 @@
        </nav>
     </header>
     <main>
-        <h1>Компания Техномарт</h1>
+        <h1 class='visually-hidden'>Компания Техномарт</h1>
         <section class='info-service'>
             <ul class='list-offer'>
                 <li class='offer material'>
@@ -62,9 +62,15 @@
                 </li>
                 <li class='slider-offer'>
                     <h2>Дрели</h2>
-                    <p>Соседям на радость</p> 
-                    <img src="img/slider-2.jpg" width="620" height="266" alt="slider1">
-                    <a href='catalog.html' class='button'>Открыть каталог</a> 
+                    <p>Соседям на радость</p>
+                    <button class='slider-button' type='button'>
+                        Предыдущий слайд
+                    </button> 
+                    <img src="img/slider-2.jpg" width="620" height="266" alt="slider1"> 
+                    <button class='slider-button' type='button'>
+                        Следующий слайд
+                    </button>
+                    <a href='catalog.html' class='button'>Открыть каталог</a>
                 </li>
                 <li class='offer sale'>
                     <h2>Скидка 50%</h2>
@@ -184,9 +190,21 @@
             <div class='service-block'>
                 <div class='service-button'>
                    <ul>
-                       <li><a href='#'>Доставка</a></li>
-                       <li><a href='#'>Гарантия</a></li>
-                       <li><a href='#'>Кредит</a></li>
+                       <li>
+                           <button class='info-button' type='button'>
+                               Доставка
+                           </button>
+                       </li>
+                       <li>
+                           <button class='info-button' type='button'>
+                               Гарантия
+                           </button>
+                       </li>
+                       <li>
+                           <button class='info-button' type='button'>
+                               Кредит
+                           </button>
+                       </li>
                    </ul>
                 </div>
                 <div class='info-service'>
@@ -239,7 +257,7 @@
                     Вы можете забрать товар сами,
                     заехав в нашм офис.
                 </p>
-                <img src="img/map-small.png" width="300" height="158" alt='google-map'>
+                <img src="img/map-small.png" width="300" height="158" alt='Офис компании по адресу ул. Большая Конюшенная 19.8, г. Санкт-Петербург'>
                 <a href='#' class='write-us-button'>Заблудились? Напишите нам!</a>
             </section>
         </section>
@@ -289,5 +307,14 @@
                   </div>           
          </div>
      </footer>
+     <section class='modal-map'>
+         <h2 class='visually-hidden'>Как до нас добраться</h2>
+         <p>
+             <img src="img/map-small.png" width="500" height="300" alt='Офис компании по адресу ул. Большая Конюшенная 19.8, г. Санкт-Петербург'>
+         </p>
+         <button clas='modal-close' type='button'>
+             Закрыть
+         </button>
+     </section>
   </body>
 </html>
